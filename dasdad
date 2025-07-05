@@ -1,0 +1,232 @@
+exports.interceptioner = {
+    PARENT: [exports.genericTank],
+    LABEL: 'Interceptioner',
+    //CONTROLLERS: ['nearestDifferentMaster'],
+    GUNS: [ { /*** LENGTH  WIDTH   ASPECT    X       Y     ANGLE   DELAY */
+        POSITION: [  18,     8,      1,      0,      0,      0,      0,   ], 
+        PROPERTIES: {
+            SHOOT_SETTINGS: combineStats([g.basic]),
+            TYPE: exports.autobullet,
+          }
+       }
+    ],
+    TURRETS: [
+    {
+      /*********  SIZE     X       Y     ANGLE    ARC */
+      POSITION: [12, 0, 0, 0, 360, 1],
+      TYPE: exports.driveindicator,
+         }
+        ]
+      };
+
+exports.twindrive = {
+        PARENT: [exports.genericTank],
+        LABEL: 'Twindrive',
+        DANGER: 6,
+        GUNS: [ { /*** LENGTH  WIDTH   ASPECT    X       Y     ANGLE   DELAY */
+            POSITION: [  20,     8,      1,      0,     5.5,     0,      0,   ],
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.twin]),
+                TYPE: exports.autobullet,
+            }, }, { /* LENGTH  WIDTH   ASPECT    X       Y     ANGLE   DELAY */
+            POSITION: [  20,     8,      1,      0,    -5.5,     0,     0.5,  ], 
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.twin]),
+                TYPE: exports.autobullet,
+            }, 
+          }, 
+        ],
+  TURRETS: [
+    {
+      /*********  SIZE     X       Y     ANGLE    ARC */
+      POSITION: [12, 0, 0, 0, 360, 1],
+      TYPE: exports.driveindicator,
+          }, 
+        ], 
+      };
+exports.bentdrive = {
+            PARENT: [exports.genericTank],
+            LABEL: 'Bentdrive',
+            DANGER: 7,
+            BODY: {
+                SPEED:  base.SPEED * 0.9,
+                HEALTH: base.HEALTH * 0.95,
+                SHIELD: base.SHIELD * 0.8,
+                DAMAGE: base.DAMAGE * 0.85,
+            },
+            GUNS: [ { /*** LENGTH  WIDTH   ASPECT    X       Y     ANGLE   DELAY */
+                POSITION: [  19,     8,      1,      0,     -2,    -20,     0.5,  ], 
+                    PROPERTIES: {
+                        SHOOT_SETTINGS: combineStats([g.basic, g.twin, g.bent]),
+                        TYPE: exports.autobullet,
+                    }, }, {
+                POSITION: [  19,     8,      1,      0,      2,     20,     0.5,  ], 
+                    PROPERTIES: {
+                        SHOOT_SETTINGS: combineStats([g.basic, g.twin, g.bent]),
+                        TYPE: exports.autobullet,
+                    }, }, {
+                POSITION: [  22,     8,      1,      0,      0,      0,      0,   ], 
+                    PROPERTIES: {
+                        SHOOT_SETTINGS: combineStats([g.basic, g.twin, g.bent]),
+                        TYPE: exports.autobullet,
+                    }, },
+            ],
+        TURRETS: [
+    {
+      /*********  SIZE     X       Y     ANGLE    ARC */
+      POSITION: [12, 0, 0, 0, 360, 1],
+      TYPE: exports.driveindicator,
+          }, 
+        ], 
+      };
+         exports.doubletwindrive = {
+        PARENT: [exports.genericTank],
+        LABEL: 'Double Twindrive',
+        DANGER: 7,
+        GUNS: [ { /*** LENGTH  WIDTH   ASPECT    X       Y     ANGLE   DELAY */
+            POSITION: [  20,     8,      1,      0,     5.5,     0,      0,   ],
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.twin]),
+                TYPE: exports.autobullet,
+            }, }, { /* LENGTH  WIDTH   ASPECT    X       Y     ANGLE   DELAY */
+            POSITION: [  20,     8,      1,      0,    -5.5,     0,     0.5,  ], 
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.twin]),
+                TYPE: exports.autobullet,
+            }, }, { /* LENGTH  WIDTH   ASPECT    X       Y     ANGLE   DELAY */
+            POSITION: [  20,     8,      1,      0,    5.5,     180,     0,  ], 
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.twin]),
+                TYPE: exports.autobullet,
+            }, }, { /* LENGTH  WIDTH   ASPECT    X       Y     ANGLE   DELAY */
+            POSITION: [  20,     8,      1,      0,    -5.5,     180,     0.5,  ], 
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.twin]),
+                TYPE: exports.autobullet,
+            }, 
+          }, 
+        ],
+  TURRETS: [
+    {
+      /*********  SIZE     X       Y     ANGLE    ARC */
+      POSITION: [12, 0, 0, 0, 360, 1],
+      TYPE: exports.driveindicator,
+          }, 
+        ], 
+      };
+
+exports.ceptionist = {
+    PARENT: [exports.genericTank],
+    LABEL: 'Ceptionist',
+    DANGER: 6,
+    GUNS: [ { /*** LENGTH  WIDTH   ASPECT    X       Y     ANGLE   DELAY */
+        POSITION: [  18,     8,      1,      0,      0,      0,      0,    ], 
+        PROPERTIES: {
+            SHOOT_SETTINGS: combineStats([g.basic]),
+            TYPE: exports.ceptionistBullet,
+        }, }, 
+    ],
+    TURRETS: [{ /*  SIZE     X       Y     ANGLE    ARC */
+        POSITION: [  9,     0,      0,      0,      0,  1], 
+            TYPE: exports.ceptionistMarking,
+      },
+    ],
+};
+    exports.twinceptionist = {
+        PARENT: [exports.genericTank],
+        LABEL: 'Twinceptionist',
+        DANGER: 7,
+        BODY: {
+        HEALTH: base.HEALTH * 0.95,
+        SHIELD: base.SHIELD * 0.8,
+        DAMAGE: base.DAMAGE * 0.85,
+        },
+        GUNS: [ { /*** LENGTH  WIDTH   ASPECT    X       Y     ANGLE   DELAY */
+            POSITION: [  20,     8,      1,      0,     5.5,     0,      0,   ],
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.twin]),
+                TYPE: exports.ceptionistBullet,
+            }, }, { /* LENGTH  WIDTH   ASPECT    X       Y     ANGLE   DELAY */
+            POSITION: [  20,     8,      1,      0,    -5.5,     0,     0.5,  ], 
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.twin]),
+                TYPE: exports.ceptionistBullet,
+            }, }, 
+        ],
+  TURRETS: [{ /*  SIZE     X       Y     ANGLE    ARC */
+        POSITION: [  9,     0,      0,      0,      0,  1], 
+            TYPE: exports.ceptionistMarking,
+        },
+    ],
+};
+exports.doubletwinceptionist = {
+        PARENT: [exports.genericTank],
+        LABEL: 'Double Twinceptionist',
+        DANGER: 7,
+        BODY: {
+        HEALTH: base.HEALTH * 0.95,
+        SHIELD: base.SHIELD * 0.8,
+        DAMAGE: base.DAMAGE * 0.85,
+        SPEED: base.SPEED * 0.9,
+        },
+        GUNS: [ { /*** LENGTH  WIDTH   ASPECT    X       Y     ANGLE   DELAY */
+            POSITION: [  20,     8,      1,      0,     5.5,     0,      0,   ],
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.twin, g.double]),
+                TYPE: exports.ceptionistBullet,
+            }, }, { /* LENGTH  WIDTH   ASPECT    X       Y     ANGLE   DELAY */
+            POSITION: [  20,     8,      1,      0,    -5.5,     0,     0.5,  ], 
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.twin, g.double]),
+                TYPE: exports.ceptionistBullet,
+            }, }, { /* LENGTH  WIDTH   ASPECT    X       Y     ANGLE   DELAY */
+            POSITION: [  20,     8,      1,      0,    5.5,     180,     0,  ], 
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.twin, g.double]),
+                TYPE: exports.ceptionistBullet,
+            }, }, { /* LENGTH  WIDTH   ASPECT    X       Y     ANGLE   DELAY */
+            POSITION: [  20,     8,      1,      0,    -5.5,     180,     0.5,  ], 
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.twin, g.double]),
+                TYPE: exports.ceptionistBullet,
+            }, }, 
+        ],
+  TURRETS: [{ /*  SIZE     X       Y     ANGLE    ARC */
+        POSITION: [  9,     0,      0,      0,      0,  1], 
+            TYPE: exports.ceptionistMarking,
+        },
+    ],
+};
+exports.bentceptionist = {
+            PARENT: [exports.genericTank],
+            LABEL: 'Bentceptionist',
+            DANGER: 7,
+            BODY: {
+            HEALTH: base.HEALTH * 0.95,
+            SHIELD: base.SHIELD * 0.8,
+            DAMAGE: base.DAMAGE * 0.85,
+            SPEED: base.SPEED * 0.9,
+            },
+            GUNS: [ { /*** LENGTH  WIDTH   ASPECT    X       Y     ANGLE   DELAY */
+                POSITION: [  19,     8,      1,      0,     -2,    -20,     0.5,  ], 
+                    PROPERTIES: {
+                        SHOOT_SETTINGS: combineStats([g.basic, g.twin, g.bent]),
+                        TYPE: exports.ceptionistBullet,
+                    }, }, {
+                POSITION: [  19,     8,      1,      0,      2,     20,     0.5,  ], 
+                    PROPERTIES: {
+                        SHOOT_SETTINGS: combineStats([g.basic, g.twin, g.bent]),
+                        TYPE: exports.ceptionistBullet,
+                    }, }, {
+                POSITION: [  22,     8,      1,      0,      0,      0,      0,   ], 
+                    PROPERTIES: {
+                        SHOOT_SETTINGS: combineStats([g.basic, g.twin, g.bent]),
+                        TYPE: exports.ceptionistBullet,
+                    }, },
+            ],
+        TURRETS: [{ /*  SIZE     X       Y     ANGLE    ARC */
+        POSITION: [  9,     0,      0,      0,      0,  1], 
+            TYPE: exports.ceptionistMarking,
+        },
+    ],
+};
