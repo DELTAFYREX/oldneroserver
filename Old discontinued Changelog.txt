@@ -1,0 +1,154 @@
+1.0-just opened server
+1.4-testing new tanks
+1.8-preparing for first tank
+2.0-added revix
+2.2-thinking
+2.3-making
+2.5-preparing
+2.7-added DeltaGunner
+3.0-browsing through different definitions
+3.2-server shutdown due to server problems
+4.6-fixed problem
+4.8-fixed some more bugs
+4.9-fixed bug with the upgrades
+5.0-added one pre-made extra tank (auto cruiser)
+5.5-added one pre-made extra tank (auto assasin)
+6.0-added one pre-made extra tank (hive shooter)
+6.4-added Unlocked
+7.0-added more ways to get hive shooter
+7.3-added more ways to get unlocked
+7.6-added bots
+7.7-fixed bad bug with Unlocked
+8.0-added master
+8.3-added lilfact
+8.6-fixed bug with bots
+8.7-fixed bug with lilfact
+9.0-ADDED PUBLIC TESTBED
+9.4-fixed some bugs
+9.5-fixed testbed problems
+9.7-fixed testbed key errors regarding platform
+10.0-added helltank
+10.1-added DeltaCannon
+10.3-added Lottery
+10.6-added hellblazer and Rocketer
+10.7-added Nautilus
+11.0-added jesus donut
+11.3-experimented with bullet effects
+11.5-added SleamShot
+11.6-added TrapHard into testbed
+11.7-removed DeltaCannon
+11.8-fixed some bugs with AI's
+11.9-fixed some bugs with crashers and bosses
+12.0-added a bunch of testbed tanks into the real thing
+12.3-removed fairsquare
+12.5-added flame killa to testbed
+12.6-removed access to the recently added tanks from testbed to save space
+12.8-added Boxer to testbed
+13.0-removed every testbed tank
+13.3-added categories to test bed
+13.7-added the "mascallenus" category to testbed
+14.0-added the "beta tanks" category to testbed
+14.3-added the tank "tower mech"
+14.5-added the "AIT" category into testbed
+14.7-added a way to get back to a basic tank after becoming testbed
+15.0-added the tank "crayon"
+15.2-added the two tanks "marker" and "pastel"
+15.5-added the tank "pen"
+15.7-added a kill button to testbed
+15.8-added the tank "highlighter"
+16.0 added a way to immediatly upgrade into a basic trapper
+16.3-invited some friends to help with my game
+16.4-added an admin logger
+16.6-changed the AI color to pink
+16.9-changed AI to have twin upgrade instead of basic
+17.0-expanded the map
+17.2-changed the colors of the spawning player to be random instead of always red or blue
+17.5-added the tanks "oof" and "oof2" to mascallenus
+17.8-added the tank "minibee" to testbed
+17.9-added the tank "hexa trapper" into the game
+18.0-added the tank "Paint Brush" into the crayon tree
+18.4-added the tank "brutalizer"
+18.7-added the tank "sidewinder"
+19.0-compleated and put the poison function into the game
+19.2-compleated and put the freeze function into the game
+19.3-fixed poison cannon
+19.5-created a seprate freeze and poison bullets
+19.7-added a stun function
+19.8-added a healing and speed function
+20.0-added a stun, healing and speed bullet shooting tanks
+20.1-renamed the bullets to respected name
+20.4-renamed the cannons to a respected name
+20.6-created a page 2 for the mascallenus
+20.8-created multibullets
+21.0-put multitanks into testbed
+21.2-organised the tanks
+21.4-testing in progress
+21.7-aproved multiple tanks into the game
+21.9-did some stupididty and added rando stuff and figured out that there is 12882 lines of code in the thing
+22.0-added some dumb tanks like "mInIfLyInGfAsTeRtHiNgY"
+22.3-added some cool colored objects on the "AsWdWsA" branch
+22.6-added a secret tank
+22.8-messed with some things like homing bullets
+23.0-removed the homing stuff due to bugs
+23.2-tested a few things
+23.5-tried to recreate the "revolutionist" tank from woomy arras
+23.7-tests
+24.0-started trying to add auto bullets
+24.1-added drive tanks into beta testing phase
+24.3-moved where the secret tank is
+24.5-debuffed "single"
+25.0-added "Cascal", "Gunto", "Catalyst", And "Cescav" to beta tanks
+25.2-added a beta version of the drive tree into the game after some testing
+25.4-brought the ception tree into beta tanks
+25.6-figured out that the "ceptions" arent really ceptions
+25.8-forgot to add the actual way to access it LOL, also added a REAL machine ceptionist as a test
+26.1-removed ceptionist and drive tanks as they are too overpowered
+26.3-added lazer guns
+26.4-stole code from someone elses server
+26.8-added beta shock and burn
+27.0-added some secret really stupid tanks
+27.1-fixed a tank
+27.5-removed revolutionist for being too buggy
+30.0-added new auto class branch
+30.1-added hivemind
+30.4-bug fixes
+30.6-major bug that caused no tanks to be added or bugs fixed causing confusion
+31.0-crashing bug made game unplayable for large amount of time
+32.0-fixed the 2 game crashing bugs
+32.1-tried to migrate to another server host but yet failed due to unknown reasons
+32.3-added "speedbent" to beta
+32.5-updated messages
+32.8-2nd attempt at migrating
+33.0-fixed crashing bug
+33.4-2nd failed migrating attempt, starting yet another
+33.6-during migration found multiple small bugs that was fixed
+34.0-WE DID IT! MIGRATION COMPLETE!
+34.2-migration big fixes
+34.5-added chat feature
+34.8-started decoration on migration host
+35.0-Decoration finished
+35.1-added sounds and updated client backround
+35.3-added more tanks into beta
+35.6-made bots more op
+35.7-fixed a bot bug
+35.9-downgraded bots
+36.0-added tank visualizers
+36.2-buffed bots a tiny bit more
+36.4-fixed visualizer bug
+36.6-added "rifle"
+36.7-fixed "lilfact" upgrade path
+37.0 added auto "lilfact"
+37.3-renamed "lilfact" to "spawner"
+37.5-added secret tanks for update 40.0
+37.7-minor crash bug fixes
+38.0-removed "rifle" and "autospawner" from beta
+38.4-fixed smasher bug
+38.6-failed "lancer" class attempt
+39.0-major bug fixes
+39.2-secret tank updates
+39.4-rainbow color old client fix
+39.7-last patches before big update
+39.9-fixed tiny bug
+40.0-added "maleficator", "stalker", "landmine", "jumpsmash", "speedbent", "heavy3", "twindrive", "interceptioner", the "drive" subtree to autobasic, and increased map size
+40.1-fixed and debuffed jumpsmash
+40.3-debuffed speedbent
